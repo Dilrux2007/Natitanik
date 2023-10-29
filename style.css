@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav{
+    background: #2f2727;
+}
+
+header{
+    background: #2f2727;
+}
+
+.titanic{
+    font-family: 'B612 Mono', monospace;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.hello{
+    margin-top: 200px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-top: 17px;
+}
+
+.about{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-top: 27px;
+}
+
+.cantact{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000; 
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    border: none;
+    padding: 14px 38px 13px 41px;
+    margin-top: 27px;
+}
+
+.imgbola{
+    position: relative;
+}
+
+.otaportfolio{
+    margin-top: 100px;
+}
+
+.buttonlar1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 113px;
+}
+
+.buttonlar2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_img {
+    margin-top: 30px;
+    width: 67%;
+}
+
+.logo_name {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 44px;
+    margin-left: -30px;
+}
+
+.href_nav_1 {
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    text-decoration: none;
+}
+
+.href_nav_2 {
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    text-decoration: none;
+}
+
+.href_nav_3 {
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    text-decoration: none;
+}
+
+.href_nav_4 {
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    text-decoration: none;
+}
+
+.div_li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.tana{
+    position: absolute;
+    top: 94px;
+    right: 90px;
+    width:60%;
+}
+
+.design1{
+    margin-left: 110px;
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    padding: 57px 79px 50px 75px;
+    border: none;
+}
+
+.design3{
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    padding: 57px 79px 50px 75px;
+    border: none;
+    margin-right: 110px;
+}
+
+.doira{
+    width: 98%;
+} 
+
+.boshi{
+    position: absolute;
+    top: 50px;
+    right: 155px;
+    width: 50%;
+}
+
+.ui{
+    position: absolute;
+    top: 110px;
+    right: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;  
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #00C4F0;
+    padding: 25px 26px 24px 27px;
+    border-radius: 50%;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+/* .slash{
+    width: 42px;
+} */
+
+.kattakichik{
+    position: absolute;
+    top: 115px;
+    right: 430px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    font-size: 36px;
+    line-height: 41px;  
+    display: flex;
+    align-items: center;
+    color: #00C4F0;
+    padding: 25px 26px 24px 27px;
+    border-radius: 50%;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+.UX{
+    position: absolute;
+    top: 260px;
+    border: none;
+    right: 490px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;  
+    display: flex;
+    align-items: center;
+    color: #00C4F0;
+    padding: 25px 25px 24px 25px;
+    border-radius: 50%;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+.PS{
+    position: absolute;
+    top: 440px;
+    border: none;
+    right: 450px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;  
+    display: flex;
+    align-items: center;
+    color: #00C4F0;
+    padding: 25px 25px 24px 25px;
+    border-radius: 50%;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+.section1{
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+.design{
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    padding: 57px 79px 50px 75px;
+    border: none;
+}
+
+.product{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-top: 70px;
+}
+
+.productui{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-top: 90px;
+}
+
+.designui{
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    border: none;
+    padding: 76px 79px 50px 75px;
+}
+
+.product3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-top: 50px;
+}
+
+.section2{
+    background: #2f2727;
+}
+
+.doiralar{
+    position: relative;
+}
+
+.oqdoira{
+    width: 792px;
+    margin-top: 200px;
+}
+
+.sariqdoira{
+    width: 356px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 155px;
+}
+
+.galuboydoira{
+    width: 550px;
+    position: absolute;
+    top: 300px;
+    margin-top: 139px;
+}
+
+.doiralar{
+    right: 120px;
+}
+
+.one{
+    position: absolute;
+    top: 60px;
+    left: 140px;
+    padding: 29px;
+    border-radius: 29px;
+    background: #2C2C2C;
+}
+
+.bosh2{
+    width: 309px;
+    position: absolute;
+    top: 80px;
+    left:150px;
+}
+
+.two{
+    position: absolute;
+    top: 610px;
+    left: 140px;
+    padding: 29px;
+    border-radius: 29px;
+    background: #2C2C2C;
+}
+
+.bosh3{
+    width: 93px;
+    top: 740px;
+    left: 240px;
+    position: absolute;
+}
+
+.three{
+    position: absolute;
+    right: 10px;
+    top: 270px;
+    padding: 29px;
+    border-radius: 29px;
+    background: #2C2C2C;border: #2C2C2C;
+}
+
+.fon{
+    top: 10px;
+    right: 60px;
+}
+
+.aboutmetwo{
+    position: relative;
+}
+
+.menhaqimda{
+    position: absolute;
+    left: 545px;
+    top: -1020px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.helloagaintext_div{
+    position: relative;
+}
+
+.helloagain{
+    position: absolute;
+    width: 496px;
+    height: 822px;
+    left: 455px;
+    top: -984px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF; 
+    padding: 0px 63px 0px 63px;
+    background: #2C2C2C;
+    border-radius: 14px; 
+}
+
+.section3{
+    background: #2f2727;
+}
+
+.portfolio_name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.portfolio_img{
+    border-radius: 20px;
+    padding: 50px 700px 41px 50px;
+    background: #3b3737 ;
+    margin-bottom: 150px;
+}
+
+.portfolio_text_logo{
+    padding-top: 50px;
+    font-family: 'Arodora Pro';
+    background: #2f2727;
+    font-style: normal;
+    background: #3b3737 ;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.portfolio_text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    background: #2f2727;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3b3737 ;
+}
+
+footer{
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+
+}
+
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #E4E4E4;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+}
+
+.homefooter{
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-bottom: 18px;
+    margin-top: 50px;
+}
+
+.aboutfooter{
+    margin-bottom: 18px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.portfoliofooter{
+    margin-bottom: 18px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.contactfooter{
+    margin-bottom: 18px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.footercontact{
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-bottom: 18px;
+    margin-top: 50px;
+}
+
+.email{
+    margin-bottom: 18px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.insta{
+    margin-bottom: 18px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.tel{
+    margin-bottom: 18px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.footerkema{
+    margin-top: 50px;
+    height: 100%;
+}
+
+.natitanicfooter{
+    font-family: 'B612 Mono', monospace;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 70px;
+}
+
+.divcolfour{
+    display: flex;
+}
+
+.strelka{
+    margin-top: 50px;
+    margin-left: 32px;
+}
